@@ -40,4 +40,6 @@ function(currentToDo, action) {
         completed: !currentToDo.completed
     })
 }
+// OR
+return {...currentToDo, {}}
 ```

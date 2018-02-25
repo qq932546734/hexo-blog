@@ -85,7 +85,7 @@ $ git checkout <commit-hash/branch-name/tag-name>
 // remove staged file
 $ git rm -r --cache <file>
 // add item to .gitignore
-$ echo "<file_or_folder>" >> .gitignore
+$ echo "<file_or_folder/>" >> .gitignore
 
 // after eidting your code, just commit it with automatically stage
 $ git commit -am "message"
